@@ -1,0 +1,41 @@
+.lcars-block {
+    display: flex;
+
+    &.lcars-block--vertical {
+        flex-direction: column;
+    }
+
+    & > .lcars-block {
+        flex: 1;
+    }
+
+    & > .lcars-block--content {
+        flex: 1;
+        margin: 1rem;
+
+        overflow-y: auto;
+
+        /* width */
+        &::-webkit-scrollbar {
+            border-radius: 5px;
+            width: 10px;
+        }
+
+        /* Track */
+        &::-webkit-scrollbar-track {
+            border-radius: 5px;
+            background-color: #252525;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            background: #888;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+          background: $default-color;
+        }
+    }
+}

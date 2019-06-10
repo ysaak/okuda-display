@@ -1,0 +1,26 @@
+$base-font-size: 6rem;
+
+@function to_em($multiplier) {
+    @return (($multiplier * 1rem) / $base-font-size) * 1rem;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*-----*/
+
+$default-color: #FFFF99;
+
+$base-spacing: to_em(2);
+$double-spacing: $base-spacing * 2;
+
+$base-width: to_em(90);
+$half-width: $base-width / 2;
+
+$base-height: to_em(25);
+$half-height: $base-height / 2;
+
+$bar-height: $half-height;
+$half-bar-height: $half-height / 2;
+
+$elbow-radius-size: $half-width;
+$elbow-column-spacing: $elbow-radius-size / 2 + $base-spacing / 2;

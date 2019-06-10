@@ -1,0 +1,21 @@
+.lcars-app {
+    width: 100vw;
+    height: 100vh;
+    padding: 0.5rem;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.lcars-vertical-layout {
+    display: flex;
+    flex-direction: column;
+
+    .lcars-block + .lcars-block {
+        margin-top: $double-spacing;
+    }
+
+    &.expand {
+        flex: 1;
+    }
+}

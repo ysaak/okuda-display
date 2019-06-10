@@ -1,0 +1,172 @@
+.lcars-bar {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    &.bottom {
+        align-items: flex-end;
+    }
+
+    & > .lcars-bar--segment {
+        position: relative;
+        color: black;
+        height: $bar-height;
+        width: 100%;
+        margin: 0;
+        display: inline-block;
+        background-color: $default-color;
+
+        &.half-segment {
+            height: $half-bar-height;
+        }
+
+        &.left-space {
+            margin-left: $base-spacing;
+        }
+
+        &.right-space {
+            margin-left: $base-spacing;
+        }
+
+        &.double-left-space {
+            margin-left: $base-spacing * 2;
+        }
+
+        &.double-right-space {
+            margin-left: $base-spacing * 2;
+        }
+
+        &.expand {
+            flex: 2;
+        }
+
+        &.spacer {
+            margin: 0;
+            padding: 0;
+            background-color: transparent !important;
+            width: $base-spacing;
+            min-width: $base-spacing;
+            height: $base-spacing;
+            min-height: $base-spacing;
+        }
+
+        &.right-end {
+            width: $bar-height;
+            max-width: $bar-height;
+            min-width: $bar-height;
+            border-top-right-radius: $bar-height / 2;
+            border-bottom-right-radius: $bar-height / 2;
+        }
+    }
+}
+
+
+/*
+&:after
+   content ''
+   display block
+   position absolute
+   background black
+
+
+ &.double-spacer
+   background-color transparent
+   width double-spacing
+   min-width double-spacing
+   height double-spacing
+   min-height double-spacing
+
+
+ &.left-double-space
+   margin-left double-spacing
+
+ &.right-double-space
+   margin-right double-spacing
+
+ &.horizontal
+   height bar-height
+
+ &.left-end
+   width bar-height
+   max-width bar-height
+   min-width bar-height
+   border-top-left-radius (bar-height/2)
+   border-bottom-left-radius (bar-height/2)
+   &.decorated
+     &:after
+       right base-spacing
+       width base-spacing
+       height 100%
+       background-color black
+
+ &.fill
+   flex 1
+
+ .{prefix}title
+   scaled-base-spacing = (base-spacing*2/3)
+   color white
+   background-color black
+   text-transform uppercase
+   margin 0
+   margin-left 5 * scaled-base-spacing
+   padding-left scaled-base-spacing
+   padding-right scaled-base-spacing
+   padding-bottom scaled-base-spacing
+   display inline-block
+   font-size 150%
+   height 100%
+
+   &.right
+     float right
+     margin-right 5 * scaled-base-spacing
+
+*/
+
+.lcars-col {
+    display: flex;
+    flex-direction: column;
+
+    width: $base-width + $elbow-column-spacing;
+
+    .lcars-col--segment {
+        position: relative;
+        color: black;
+        width: $base-width + $elbow-column-spacing;
+        margin: 0;
+        background-color: $default-color;
+        padding-right: $elbow-column-spacing + $base-spacing;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        font-weight: bold;
+
+        min-height: 4rem;
+        height: 4rem;
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: $elbow-column-spacing;
+            height: 100%;
+            background-color: #000;
+            right: 0;
+            top: 0;
+        }
+
+        &.top-space {
+            margin-top: $base-spacing;
+        }
+
+        &.bottom-space {
+            margin-bottom: $base-spacing;
+        }
+
+        &.expand {
+            flex: 1;
+        }
+    }
+}

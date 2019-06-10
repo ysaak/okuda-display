@@ -1,0 +1,535 @@
+/*----------------------------------------------------------------------------*/
+/*-----*/
+.lcars-white-fg {
+  color: white !important; }
+
+.lcars-white-bg {
+  background-color: white !important; }
+
+.lcars-black-fg {
+  color: black !important; }
+
+.lcars-black-bg {
+  background-color: black !important; }
+
+.lcars-pale-canary-fg {
+  color: #FFFF99 !important; }
+
+.lcars-pale-canary-bg {
+  background-color: #FFFF99 !important; }
+
+.lcars-golden-tanoi-fg {
+  color: #FFCC66 !important; }
+
+.lcars-golden-tanoi-bg {
+  background-color: #FFCC66 !important; }
+
+.lcars-neon-carrot-fg {
+  color: #FF9933 !important; }
+
+.lcars-neon-carrot-bg {
+  background-color: #FF9933 !important; }
+
+.lcars-eggplant-fg {
+  color: #664466 !important; }
+
+.lcars-eggplant-bg {
+  background-color: #664466 !important; }
+
+.lcars-lilac-fg {
+  color: #cc99cc !important; }
+
+.lcars-lilac-bg {
+  background-color: #cc99cc !important; }
+
+.lcars-anakiwa-fg {
+  color: #99ccff !important; }
+
+.lcars-anakiwa-bg {
+  background-color: #99ccff !important; }
+
+.lcars-mariner-fg {
+  color: #3366cc !important; }
+
+.lcars-mariner-bg {
+  background-color: #3366cc !important; }
+
+.lcars-bahama-blue-fg {
+  color: #006699 !important; }
+
+.lcars-bahama-blue-bg {
+  background-color: #006699 !important; }
+
+.lcars-blue-bell-fg {
+  color: #9999cc !important; }
+
+.lcars-blue-bell-bg {
+  background-color: #9999cc !important; }
+
+.lcars-melrose-fg {
+  color: #9999ff !important; }
+
+.lcars-melrose-bg {
+  background-color: #9999ff !important; }
+
+.lcars-hopbush-fg {
+  color: #cc6699 !important; }
+
+.lcars-hopbush-bg {
+  background-color: #cc6699 !important; }
+
+.lcars-chestnut-rose-fg {
+  color: #cc6666 !important; }
+
+.lcars-chestnut-rose-bg {
+  background-color: #cc6666 !important; }
+
+.lcars-orange-peel-fg {
+  color: #FF9966 !important; }
+
+.lcars-orange-peel-bg {
+  background-color: #FF9966 !important; }
+
+.lcars-atomic-tangerine-fg {
+  color: #ff9900 !important; }
+
+.lcars-atomic-tangerine-bg {
+  background-color: #ff9900 !important; }
+
+.lcars-danub-fg {
+  color: #6688cc !important; }
+
+.lcars-danub-bg {
+  background-color: #6688cc !important; }
+
+.lcars-indigo-fg {
+  color: #4455bb !important; }
+
+.lcars-indigo-bg {
+  background-color: #4455bb !important; }
+
+.lcars-lavender-purple-fg {
+  color: #9977aa !important; }
+
+.lcars-lavender-purple-bg {
+  background-color: #9977aa !important; }
+
+.lcars-cosmic-fg {
+  color: #774466 !important; }
+
+.lcars-cosmic-bg {
+  background-color: #774466 !important; }
+
+.lcars-red-damask-fg {
+  color: #dd6644 !important; }
+
+.lcars-red-damask-bg {
+  background-color: #dd6644 !important; }
+
+.lcars-medium-carmine-fg {
+  color: #AA5533 !important; }
+
+.lcars-medium-carmine-bg {
+  background-color: #AA5533 !important; }
+
+.lcars-bourbon-fg {
+  color: #bb6622 !important; }
+
+.lcars-bourbon-bg {
+  background-color: #bb6622 !important; }
+
+.lcars-sandy-brown-fg {
+  color: #ee9955 !important; }
+
+.lcars-sandy-brown-bg {
+  background-color: #ee9955 !important; }
+
+.lcars-periwinkle-fg {
+  color: #ccddff !important; }
+
+.lcars-periwinkle-bg {
+  background-color: #ccddff !important; }
+
+.lcars-dodger-blue-fg {
+  color: #5599ff !important; }
+
+.lcars-dodger-blue-bg {
+  background-color: #5599ff !important; }
+
+.lcars-dodger-blue-alt-fg {
+  color: #3366ff !important; }
+
+.lcars-dodger-blue-alt-bg {
+  background-color: #3366ff !important; }
+
+.lcars-blue-fg {
+  color: #0011ee !important; }
+
+.lcars-blue-bg {
+  background-color: #0011ee !important; }
+
+.lcars-navy-blue-fg {
+  color: #000088 !important; }
+
+.lcars-navy-blue-bg {
+  background-color: #000088 !important; }
+
+.lcars-husk-fg {
+  color: #bbaa55 !important; }
+
+.lcars-husk-bg {
+  background-color: #bbaa55 !important; }
+
+.lcars-rust-fg {
+  color: #bb4411 !important; }
+
+.lcars-rust-bg {
+  background-color: #bb4411 !important; }
+
+.lcars-tamarillo-fg {
+  color: #882211 !important; }
+
+.lcars-tamarillo-bg {
+  background-color: #882211 !important; }
+
+.lcars-elbow {
+  position: relative;
+  width: 18.91667rem;
+  min-width: 18.91667rem;
+  height: 6.25rem;
+  min-height: 6.25rem;
+  background: #FFFF99;
+  margin: 0;
+  /*
+  & a
+    display inline-block
+    position absolute
+    color black
+    bottom 0
+    padding base-spacing
+
+
+      */ }
+  .lcars-elbow:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 3.91667rem;
+    height: 4.16667rem;
+    background-color: #000; }
+  .lcars-elbow.left-bottom {
+    border-top-left-radius: 7.5rem;
+    /*
+      & a
+        right elbow-column-spacing + base-spacing
+        */ }
+    .lcars-elbow.left-bottom:after {
+      right: 0;
+      bottom: 0;
+      border-top-left-radius: 3.75rem; }
+  .lcars-elbow.left-top {
+    border-bottom-left-radius: 7.5rem;
+    /*
+      & a
+        top 0
+        right elbow-column-spacing + base-spacing
+      */ }
+    .lcars-elbow.left-top:after {
+      right: 0;
+      bottom: 2.08333rem;
+      border-bottom-left-radius: 7.5rem; }
+  .lcars-elbow.right-bottom {
+    border-top-right-radius: 7.5rem;
+    /*
+      & a
+        left elbow-column-spacing + base-spacing
+        */ }
+    .lcars-elbow.right-bottom:after {
+      top: 2.08333rem;
+      border-top-right-radius: 3.75rem; }
+  .lcars-elbow.right-top {
+    border-bottom-right-radius: 7.5rem;
+    /*
+      & a
+        display inline-block
+        top 0
+        left elbow-column-spacing + base-spacing
+        */ }
+    .lcars-elbow.right-top:after {
+      bottom: 2.08333rem;
+      border-bottom-right-radius: 3.75rem; }
+
+.lcars-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+  .lcars-bar.bottom {
+    align-items: flex-end; }
+  .lcars-bar > .lcars-bar--segment {
+    position: relative;
+    color: black;
+    height: 2.08333rem;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    background-color: #FFFF99; }
+    .lcars-bar > .lcars-bar--segment.half-segment {
+      height: 1.04167rem; }
+    .lcars-bar > .lcars-bar--segment.left-space {
+      margin-left: 0.33333rem; }
+    .lcars-bar > .lcars-bar--segment.right-space {
+      margin-left: 0.33333rem; }
+    .lcars-bar > .lcars-bar--segment.double-left-space {
+      margin-left: 0.66667rem; }
+    .lcars-bar > .lcars-bar--segment.double-right-space {
+      margin-left: 0.66667rem; }
+    .lcars-bar > .lcars-bar--segment.expand {
+      flex: 2; }
+    .lcars-bar > .lcars-bar--segment.spacer {
+      margin: 0;
+      padding: 0;
+      background-color: transparent !important;
+      width: 0.33333rem;
+      min-width: 0.33333rem;
+      height: 0.33333rem;
+      min-height: 0.33333rem; }
+    .lcars-bar > .lcars-bar--segment.right-end {
+      width: 2.08333rem;
+      max-width: 2.08333rem;
+      min-width: 2.08333rem;
+      border-top-right-radius: 1.04167rem;
+      border-bottom-right-radius: 1.04167rem; }
+
+/*
+&:after
+   content ''
+   display block
+   position absolute
+   background black
+
+
+ &.double-spacer
+   background-color transparent
+   width double-spacing
+   min-width double-spacing
+   height double-spacing
+   min-height double-spacing
+
+
+ &.left-double-space
+   margin-left double-spacing
+
+ &.right-double-space
+   margin-right double-spacing
+
+ &.horizontal
+   height bar-height
+
+ &.left-end
+   width bar-height
+   max-width bar-height
+   min-width bar-height
+   border-top-left-radius (bar-height/2)
+   border-bottom-left-radius (bar-height/2)
+   &.decorated
+     &:after
+       right base-spacing
+       width base-spacing
+       height 100%
+       background-color black
+
+ &.fill
+   flex 1
+
+ .{prefix}title
+   scaled-base-spacing = (base-spacing*2/3)
+   color white
+   background-color black
+   text-transform uppercase
+   margin 0
+   margin-left 5 * scaled-base-spacing
+   padding-left scaled-base-spacing
+   padding-right scaled-base-spacing
+   padding-bottom scaled-base-spacing
+   display inline-block
+   font-size 150%
+   height 100%
+
+   &.right
+     float right
+     margin-right 5 * scaled-base-spacing
+
+*/
+.lcars-col {
+  display: flex;
+  flex-direction: column;
+  width: 18.91667rem; }
+  .lcars-col .lcars-col--segment {
+    position: relative;
+    color: black;
+    width: 18.91667rem;
+    margin: 0;
+    background-color: #FFFF99;
+    padding-right: 4.25rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
+    min-height: 4rem;
+    height: 4rem; }
+    .lcars-col .lcars-col--segment:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 3.91667rem;
+      height: 100%;
+      background-color: #000;
+      right: 0;
+      top: 0; }
+    .lcars-col .lcars-col--segment.top-space {
+      margin-top: 0.33333rem; }
+    .lcars-col .lcars-col--segment.bottom-space {
+      margin-bottom: 0.33333rem; }
+    .lcars-col .lcars-col--segment.expand {
+      flex: 1; }
+
+.lcars-element {
+  position: relative;
+  font-weight: bold;
+  color: black;
+  text-align: right;
+  background: #FFFF99;
+  height: 4.16667rem;
+  width: 15rem;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-decoration: none; }
+  .lcars-element.rounded {
+    border-radius: 2.08333rem;
+    padding-left: 2.08333rem;
+    padding-right: 2.08333rem; }
+
+/*
+  *
+    margin 0
+
+  &.left-rounded
+    border-top-left-radius (base-height/2)
+    border-bottom-left-radius (base-height/2)
+    padding-left (base-height/2)
+
+  &.right-rounded
+    border-top-right-radius (base-height/2)
+    border-bottom-right-radius (base-height/2)
+    padding-right (base-height/2)
+
+  &.rounded
+    border-radius (base-height/2)
+    padding-left (base-height/2)
+    padding-right (base-height/2)
+
+  &.button
+    cursor pointer
+
+    &:active
+      background-color default-color-highlight
+
+  .{prefix}element-addition
+    display flex
+    flex-direction column
+    justify-content flex-end
+    height 100%
+    background-color black
+    color white
+    font-size (2/3 * base-height)
+    margin-left base-spacing
+    padding-left base-spacing
+    padding-right base-spacing
+
+  .{prefix}element-decorator
+    display inline-block
+    position absolute
+    top 0
+    width (base-height/2) + double-spacing
+    left 0 - @width - base-spacing
+    height 100%
+    background-color default-color
+    border-top-left-radius half-height
+    border-bottom-left-radius half-height
+    &:after
+      content ''
+      display block
+      position absolute
+      right base-spacing
+      width base-spacing
+      height 100%
+      background-color black
+    &.right
+      right 0 - @width - base-spacing
+      left unset
+      border-top-right-radius half-height
+      border-bottom-right-radius half-height
+      border-top-left-radius 0
+      border-bottom-left-radius 0
+      &:after
+        left base-spacing
+        right unset
+*/
+.lcars-block {
+  display: flex; }
+  .lcars-block.lcars-block--vertical {
+    flex-direction: column; }
+  .lcars-block > .lcars-block {
+    flex: 1; }
+  .lcars-block > .lcars-block--content {
+    flex: 1;
+    margin: 1rem;
+    overflow-y: auto;
+    /* width */
+    /* Track */
+    /* Handle */
+    /* Handle on hover */ }
+    .lcars-block > .lcars-block--content::-webkit-scrollbar {
+      border-radius: 5px;
+      width: 10px; }
+    .lcars-block > .lcars-block--content::-webkit-scrollbar-track {
+      border-radius: 5px;
+      background-color: #252525; }
+    .lcars-block > .lcars-block--content::-webkit-scrollbar-thumb {
+      border-radius: 5px;
+      background: #888; }
+    .lcars-block > .lcars-block--content::-webkit-scrollbar-thumb:hover {
+      background: #FFFF99; }
+
+.lcars-app {
+  width: 100vw;
+  height: 100vh;
+  padding: 0.5rem;
+  display: flex;
+  overflow: hidden; }
+
+.lcars-vertical-layout {
+  display: flex;
+  flex-direction: column; }
+  .lcars-vertical-layout .lcars-block + .lcars-block {
+    margin-top: 0.66667rem; }
+  .lcars-vertical-layout.expand {
+    flex: 1; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #000;
+  color: #FFF; }
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }

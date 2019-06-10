@@ -1,0 +1,26 @@
+@import "variables";
+@import "colors";
+@import "elbow";
+@import "bar";
+@import "element";
+@import "block";
+
+@import "layout";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
