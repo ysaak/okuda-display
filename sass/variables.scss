@@ -8,8 +8,8 @@ $base-font-size: 6rem;
 
 /*-----*/
 
-$default-color: #FFFF99;
-$title-color: #6688cc;
+$default-color: map-get($colors-list, "pale-canary");
+$title-color: map-get($colors-list, "danub");
 
 $base-spacing: to_em(2);
 $double-spacing: $base-spacing * 2;

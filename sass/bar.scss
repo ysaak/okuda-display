@@ -41,14 +41,12 @@
             flex: 2;
         }
 
-        &.spacer {
-            margin: 0;
-            padding: 0;
-            background-color: transparent !important;
-            width: $base-spacing;
-            min-width: $base-spacing;
-            height: $base-spacing;
-            min-height: $base-spacing;
+        &.left-end {
+            width: $bar-height;
+            max-width: $bar-height;
+            min-width: $bar-height;
+            border-top-left-radius: $bar-height / 2;
+            border-bottom-left-radius: $bar-height / 2;
         }
 
         &.right-end {
