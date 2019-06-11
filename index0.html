@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/knacss.css">
-    <link rel="stylesheet" href="css/grillade-grid.css">
+    <link rel="stylesheet" href="css/grillade-flex.css">
     <link rel="stylesheet" href="css/main.css">
     <title>LCARS</title>
 </head>
 <body>
-<div class="lcars-app"><div class"lcars-vertical-layout">
+<div class="lcars-app"><div class="lcars-vertical-layout">
 
     <div class="lcars-block">
         <div class="lcars-col">
@@ -21,11 +23,9 @@
 
         <div class="lcars-block lcars-block--vertical">
             <div class="lcars-block--content header-content">
+                <h1>Main title</h1>
                 <div>
-                    <h1 class="lcars-danub-fg">MAIN TITLE</h1>
-                </div>
-                <div>
-                    <div class="grid-2 has-gutter">
+                    <div class="header-menu">
                         <a href="#" class="lcars-element rounded">Action 1</a>
                         <a href="#" class="lcars-element rounded">Action 2</a>
                         <a href="#" class="lcars-element rounded">Action 3</a>
@@ -46,12 +46,16 @@
         </div>
     </div>
 
-    <div class="lcars-block">
+    <div class="lcars-block expand">
         <div class="lcars-col">
             <div class="lcars-elbow left-bottom lcars-pale-canary-bg"></div>
-
-            <div class="lcars-col--segment lcars-danub-bg top-space bottom-space">LCARS READY</div>
-            <div class="lcars-col--segment bottom-space">042</div>
+            <ul class="lcars-menu">
+                <li><a href="#">Action 1</a></li>
+                <li class="active"><a href="#">Action 2</a></li>
+                <li><a href="#">Action 3</a></li>
+                <li><a href="#">Action 4</a></li>
+                <li><a href="#">Action 5</a></li>
+            </ul>
             <div class="lcars-col--segment expand"></div>
 
             <div class="lcars-elbow left-top lcars-pale-canary-bg"></div>
@@ -69,6 +73,7 @@
             </div>
 
             <div class="lcars-block--content">
+                <h2>Section title</h2>
                 <div>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque accumsan pharetra rutrum. Sed vulputate ipsum ut mi sagittis, et varius eros finibus. Aenean imperdiet ex et sem laoreet, a pellentesque ligula lobortis. Etiam ultrices placerat maximus. Curabitur condimentum ac turpis vitae luctus. Nunc metus dui, mattis non nisi nec, vulputate commodo odio. Vivamus sit amet laoreet augue. Duis ultricies vehicula lacus, nec maximus quam luctus nec. Nunc bibendum pretium vestibulum. Maecenas magna nibh, convallis sed lacinia eu, dictum sit amet augue. Donec auctor, sapien vitae dignissim congue, purus mauris pharetra elit, bibendum tristique lectus ipsum ut metus.

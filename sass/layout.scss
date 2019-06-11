@@ -4,18 +4,19 @@
     padding: 0.5rem;
 
     display: flex;
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 .lcars-vertical-layout {
     display: flex;
     flex-direction: column;
+    flex: 1;
 
-    .lcars-block + .lcars-block {
+    &>.lcars-block:not(:first-child) {
         margin-top: $double-spacing;
     }
 
-    &.expand {
+    & .expand {
         flex: 1;
     }
 }

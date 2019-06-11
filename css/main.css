@@ -374,9 +374,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-weight: bold;
-    min-height: 4rem;
-    height: 4rem; }
+    font-weight: bold; }
     .lcars-col .lcars-col--segment:after {
       content: '';
       display: block;
@@ -412,6 +410,52 @@
     border-radius: 2.08333rem;
     padding-left: 2.08333rem;
     padding-right: 2.08333rem; }
+  .lcars-element:hover {
+    text-decoration: none; }
+
+ul.lcars-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 0.33333rem solid #000;
+  border-bottom: 0.33333rem solid #000; }
+  ul.lcars-menu li {
+    position: relative;
+    width: 18.91667rem;
+    padding-right: 3.91667rem;
+    height: 4.16667rem; }
+    ul.lcars-menu li a {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
+      background: #FFFF99;
+      height: 4.16667rem;
+      padding: 0 1rem;
+      text-decoration: none; }
+      ul.lcars-menu li a:hover {
+        text-decoration: none; }
+    ul.lcars-menu li.active:after {
+      content: '';
+      top: 0;
+      left: 15.66667rem;
+      display: block;
+      position: absolute;
+      width: 3.25rem;
+      height: 4.16667rem;
+      background-color: #F00;
+      border-top-right-radius: 2.08333rem;
+      border-bottom-right-radius: 2.08333rem; }
+  ul.lcars-menu li + li {
+    margin-top: 0.33333rem; }
+
+h1, h2 {
+  color: #6688cc;
+  font-variant: small-caps; }
+
+h2 {
+  text-align: right;
+  margin-right: 0.66667rem; }
 
 /*
   *
@@ -509,15 +553,15 @@
   width: 100vw;
   height: 100vh;
   padding: 0.5rem;
-  display: flex;
-  overflow: hidden; }
+  display: flex; }
 
 .lcars-vertical-layout {
   display: flex;
-  flex-direction: column; }
-  .lcars-vertical-layout .lcars-block + .lcars-block {
+  flex-direction: column;
+  flex: 1; }
+  .lcars-vertical-layout > .lcars-block:not(:first-child) {
     margin-top: 0.66667rem; }
-  .lcars-vertical-layout.expand {
+  .lcars-vertical-layout .expand {
     flex: 1; }
 
 html, body {
@@ -533,3 +577,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+  .header-content .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.66667rem;
+    margin-top: -0.66667rem;
+    width: 31.33333rem; }
+    .header-content .header-menu > * {
+      margin-left: 0.66667rem;
+      margin-top: 0.66667rem;
+      width: calc(50% - $double-spacing); }

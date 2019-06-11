@@ -1,5 +1,4 @@
 // LCARS - Elements
-
 .lcars-element {
     position: relative;
     font-weight: bold;
@@ -22,6 +21,75 @@
         padding-left: $base-height / 2;
         padding-right: $base-height / 2;
     }
+
+    &:hover {
+      text-decoration: none;
+    }
+}
+
+ul.lcars-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    border-top: $base-spacing solid #000;
+    border-bottom: $base-spacing solid #000;
+
+    li {
+        position: relative;
+
+        width: $base-width + $elbow-column-spacing;
+        padding-right: $elbow-column-spacing;
+
+        height: $base-height;
+
+        a {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: flex-end;
+
+            background: $default-color;
+
+            height: $base-height;
+
+            padding: 0 $base-spacing * 3;
+
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+
+        &.active:after {
+            content: '';
+            top: 0;
+            left: $base-width + ($base-spacing * 2);
+            display: block;
+            position: absolute;
+            width: $elbow-column-spacing - ($base-spacing * 2);
+            height: $base-height;
+            background-color: #F00;
+            border-top-right-radius: $half-height;
+            border-bottom-right-radius: $half-height;
+        }
+    }
+
+    li + li {
+        margin-top: $base-spacing;
+    }
+}
+
+h1, h2 {
+    color: $title-color;
+    font-variant: small-caps;
+}
+
+h2 {
+    text-align: right;
+    margin-right: $double-spacing;
 }
 /*
   *

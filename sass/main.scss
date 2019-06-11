@@ -23,4 +23,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    .header-menu {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-left: -$double-spacing;
+        margin-top: -$double-spacing;
+        width: $base-width * 2 + $double-spacing * 2;
+
+        & > * {
+            margin-left: $double-spacing;
+            margin-top: $double-spacing;
+            width: calc(50% - $double-spacing);
+        }
+    }
 }
